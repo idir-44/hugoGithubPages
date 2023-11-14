@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://idir-44.github.io/hugoGithubPages/'
 languageCode = 'en-us'
 title = 'RTYWD'
 theme = 'ananke'
