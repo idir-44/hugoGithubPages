@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+}
+
+header {
+  color: white;
+  margin: 0;
+  background-color: #222;
+}
+
+.navigation {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.navigation-list li {
+  font-size: medium;
+  font-weight: 200;
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+
+.navigation-list li:hover {
+  font-size: large;
+}
+
+.logo a {
+  text-decoration: none;
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.banner {
+  width: 80%;
+  margin-inline: auto;
+  text-align: center;
+  padding: 5rem;
+  font-size: 5rem;
+  font-weight: bold;
+}
